@@ -6,12 +6,9 @@ RUN apk add --no-cache curl
 
 COPY target/server.jar app.jar
 
-ENV UUID=7bd180e8-1142-4387-93f5-03e8d750a896 \
-    NEZHA_SERVER="" \
-    NEZHA_PORT="" \
-    NEZHA_KEY="" \
-    DOMAIN="" \
-    SUB_PATH="sub" \
+ENV UUID=cccf793a-65eb-46b0-9cea-cb14bb85650a \
+    DOMAIN="whh.wgb.qzz.io" \
+    SUB_PATH="wgb" \
     NAME="" \
     WSPATH="" \
     SERVER_PORT=3000 \
